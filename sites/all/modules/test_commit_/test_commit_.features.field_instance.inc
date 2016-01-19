@@ -54,6 +54,48 @@ function test_commit__field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-test_feature_-field_ahmed'.
+  $field_instances['node-test_feature_-field_ahmed'] = array(
+    'bundle' => 'test_feature_',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_ahmed',
+    'label' => 'ahmed',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'txt',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 34,
+    ),
+  );
+
   // Exported field_instance: 'node-test_feature_-field_test'.
   $field_instances['node-test_feature_-field_test'] = array(
     'bundle' => 'test_feature_',
@@ -146,6 +188,7 @@ function test_commit__field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
+  t('ahmed');
   t('grgsgsrg srsr gsrs');
   t('test');
   t('testest');
