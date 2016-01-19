@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the test commit  feature.
+ */
+
+include_once 'test_commit_.features.inc';

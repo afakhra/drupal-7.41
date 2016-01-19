@@ -1,0 +1,11 @@
+name = test commit 
+description = tesst
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-test_feature_-body
+features[node][] = test_feature_
